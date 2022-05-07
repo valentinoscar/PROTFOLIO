@@ -1,0 +1,113 @@
+
+
+
+body{
+    background-image:url("img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    background-color:rgb(248, 218, 247);
+    margin: 3em;
+    border-radius:1em;
+    border:solid 0.1em;
+    padding: 1em;
+    background:transparent;
+    border:solid rgb(225, 100, 237) ;
+
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.foto-perfil{
+    border-radius: 3em;
+    width: 10em;
+    float: right;
+    margin: 20 20px 20px 20px;
+    
+}
+.container img{
+    float:left;
+    margin: 1em;
+    border-radius: 1em;
+}
+.container p{
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 1.5em;
+}
+.logo-habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+} 
+.input, textarea{
+    margin: 0.5em auto;
+    padding: 0em 1em;
+    width: 75%;
+    height: 2em;
+    display: flex;
+    font: 
+}
+#nombre{
+ text-decoration-color: blue;
+}
+form{
+    background-color: rgb(168, 72, 37);
+    border-radius: 1em;
+    padding: 1em;
+    width: 80%;
+   
+    margin-left: auto;
+    margin-right: auto;
+}
+.contenedor{
+    text-align:center;
+   
+}
+.contenedor input{
+    background:chartreuse
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=email]{
+    border-radius:1em;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+
+textarea{
+    border-radius: 0.5em;
+    overflow:auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+::placeholder{
+    color:black;
+    text-align: left;
+}
+footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    top: 0px;
+    background-color: rgb(216, 123, 69);
+    justify-content: space-between;
+}
+.redes{
+    display: flex;
+  
+}
+h1{
+    color:rgb(243, 239, 243);
+    font-size: 13em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
